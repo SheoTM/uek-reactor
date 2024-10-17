@@ -12,7 +12,7 @@ def reactor_efficiency(voltage, current, theoretical_max_power):
         return "GREEN"
     elif  80 > efficiency >= 60:
         return "ORANGE"
-    elif 60 < efficiency >= 30:
+    elif 60 > efficiency >= 30:
         return "RED"
     else:
         return "BLACK"
